@@ -1,0 +1,236 @@
+body {
+    background-color: #d8d8d8;
+    color: black;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+  text-align: center;
+}
+/* HEADER */
+
+header {
+    background: black;
+    background-image: url(images/FrontBar.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+    height: 450px;
+    text-align: center;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 40px;
+
+}
+
+header .mobile{
+    display: none;
+}
+
+header .logo a {
+    background-image: url("images/logo.png");
+    background-size: 130px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 80px;
+    width: 130px;
+    position: relative;
+    text-indent: -9999999px;
+    top: -30px
+  
+  
+    }
+
+    nav ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+      }
+      
+      nav li {
+        display: inline-block;
+        margin-right: 20px;
+      }
+
+/* SOCIAL MENU */
+
+.social-menu ul {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.social-menu ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+.social-menu ul li .fa {
+    color: #000000;
+    font-size: 25px;
+    line-height: 50px;
+    transition: .5s;
+}
+.social-menu ul li .fa:hover {
+    color: #ffffff;
+}
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0,0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+.social-menu ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.social-menu ul li:nth-child(1) a:hover {
+    background-color: #3b5999;
+}
+.social-menu ul li:nth-child(2) a:hover {
+    background-color: #55acee;
+}
+.social-menu ul li:nth-child(3) a:hover {
+    background-color: #e4405f;
+}
+.social-menu ul li:nth-child(4) a:hover {
+    background-color: #cd201f;
+}
+.social-menu ul li:nth-child(5) a:hover {
+    background-color: #0077B5;
+}
+
+
+/* RESPONSIVE RULES */
+  
+@media screen and (max-width:875px) {
+    header {
+        height: 100px;
+        background-size: 0 -30px;
+    }
+    header .mobile{
+        display: inline-block;
+    }
+    header .desktop{
+     display: none;
+ }
+}
+
+/* FEATURES FOR MAP */
+
+.frfeatures {
+    background:  #282828;
+    background-image: url(http://i1027.photobucket.com/albums/y332/bmzombiekittie/creature-night-stone-wall.gif);	
+    background-repeat: no-repeat;
+    background-size: 1600px 1000px;
+    background-position: center;
+    color: #d4af37;
+    text-decoration: underline;
+    font-family: 'Sofia';    
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .frfeatures figure{
+    margin: auto;
+    text-align: center;
+    width: 400px;
+  }
+  .frfeatures figure img {
+   border: 1px solid #DAA520;
+   max-width: 100%;
+   height: 300px;
+   box-shadow:gray 0 0 5px;
+   
+  }
+
+
+  .frfeaturesR {
+    background:  #282828;
+    background-image: url(http://i1027.photobucket.com/albums/y332/bmzombiekittie/creature-night-stone-wall.gif);	
+    background-repeat: no-repeat;
+    background-size: 1600px 1000px;
+    background-position: center;
+    color: #d4af37;
+    text-decoration: underline;
+    font-family: 'Sofia';    
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .frfeaturesR figure{
+    margin: auto;
+    text-align: center;
+    width: 600px;
+  }
+  .frfeaturesR figure img {
+   border: 1px solid #DAA520;
+   max-width: 100%;
+   height: 100px;
+   box-shadow:gray 0 0 5px;
+   
+  }
+
+
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+  }
+
+ /* FOOTER */
+  
+ footer {
+    background:  #282828;
+    background-image: url(http://i1027.photobucket.com/albums/y332/bmzombiekittie/creature-night-stone-wall.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 2000px 1000px;
+    color: grey;
+    font-size: 12px;
+    padding: 20px 20px;
+    text-align: center;
+  }
+
+  /* empty space for fancy line */
+
+  .empty {
+    background:  #282828;
+    background-image: url(http://i1027.photobucket.com/albums/y332/bmzombiekittie/creature-night-stone-wall.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 2000px 1000px;
+    color: #d4af37;
+    font-family: 'Sofia';
+    text-align: center;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+/* neon light */
+.neonline {
+    display: inline-block;
+    font-size: 20px ;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px  #e1ba43, 0 0 20px  #e1ba43, 0 0 25px  #e1ba43, 0 0 30px #e1ba43, 0 0 35px  #e1ba43;
+  }

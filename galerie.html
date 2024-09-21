@@ -1,0 +1,182 @@
+<html>
+<head>
+    <title>Gothic Pizzerie Restaurant!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+       <h1 class="neonline"><li><a href="index.html">Home</a></li></h1>
+       <h1 class="neonline"><!--<div class="dropdown">-->
+         <!--<button class="dropbtn">--><a href = "Menu.html">Menu<!--</button>--></a>
+         <!--<div class="dropdown-content">
+           <a href="Micdejun.html">Mic dejun</a>
+           <a href="Gustari.html">Gustari</a>
+           <a href="ciorbe,peste,vita.html">Ciorbe, Pește, Vită</a>
+           <a href="Specialitatideporc.html">Specialitati de porc</a>
+           <a href="paste.html">Paste & Salate</a>
+           <a href="sosuri.html">Sosuri</a>
+           <a href="preparate.html">Preparate</a>
+           <a href="garnituri.html">Garnituri</a>
+           <a href="pui,topping.html">Pui, Topping</a>
+           <a href="Pizza.html">Pizza</a>
+           <a href="desert.html">Desert</a>
+           <a href="inghetata.html">Inghetata</a>
+           <a href="cafea.html">Cafea</a>
+           <a href="cocktail-uri.html">Bauturi alcoolice & Cocktail-uri</a>
+           <a href="racoritoare.html">Racoritoare</a>
+           <a href="bere,vin,jidvei.html">Bere</a>
+           <a href="vin,oprisor.html">Vin</a>
+         </div>
+       </div>--></h1>
+       <h1 class="neonline"><li class="mobile"><a href="contact.html">Contact</a></li></h1>
+       
+       <li class="logo"><a href="index.html">Gothic Pizzerie Restaurant Logo</a></li>
+       <h1 class="neonline"><li class="desktop"><a href="contact.html">Contact</a></li></h1>
+       <div class="dropdownL">
+         <button class="dropbtnL"><img src="images/romanian flag 24.png"></button>
+         <a href="galerieEngl.html"><div class="dropdown-contentL"><img src="images/england flag 24.png"></div></a>
+      </ul>
+    </nav>
+   
+   
+   </header>
+
+
+  
+  
+
+
+<section class="GallerySlide">
+    <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 8</div>
+    <img src="images/drona.jpeg" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 8</div>
+    <img src="images/drona3.jpeg" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 8</div>
+    <img src="images/drona4.jpeg" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 8</div>
+    <img src="images/drona2.jpeg" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 8</div>
+    <img src="images/intrare.jpg" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">6 / 8</div>
+    <img src="images/bar.jpg" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">7 / 8</div>
+    <img src="images/mese.jpg" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">8 / 8</div>
+    <img src="images/Nightview.jpg" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+  <span class="dot" onclick="currentSlide(8)"></span>
+</div>
+<script>var slideIndex = 1;
+  showSlides(slideIndex);
+  
+  // Next/previous controls
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  // Thumbnail image controls
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+  }</script>
+
+</section>
+
+
+
+
+    <section class="gfeatures">
+        <img src="images/history.jpg" class="center">
+        <img src="images/f13.jpeg" class="center">
+        <img src="images/f17.jpeg" class="center">
+        <img src="images/f1.jpeg" class="center">
+        <img src="images/f3.jpeg" class="center">
+        <img src="images/food19.jpg" class="center">
+        <img src="images/food22.jpg" class="center">
+        <img src="images/food9.jpg" class="center">
+        <img src="images/food12.jpg" class="center">
+        <img src="images/f5.jpeg" class="center">
+        <img src="images/food2.jpg" class="center">
+        <img src="images/food3.jpg" class="center">
+        <img src="images/food4.jpg" class="center">
+        <img src="images/food5.jpg" class="center">
+        <img src="images/f4.jpeg" class="center">
+        <img src="images/f10.jpeg" class="center">
+        <img src="images/food18.jpg" class="center">
+        <img src="images/food14.jpg" class="center">
+        <img src="images/food17.jpg" class="center">
+        <img src="images/food21.jpg" class="center">
+    </section>
+
+      </body>
+      <footer>
+        Aleea Sf.Eugeniu. Santurile Cetatii Alba Iulia, Phone Number: 0754 254 397 / 0358 111 938
+      </footer>
+
