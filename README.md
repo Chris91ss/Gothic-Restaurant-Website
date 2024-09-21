@@ -106,7 +106,7 @@ A showcase of the restaurant’s food and ambiance through the gallery.
 ![Gallery Page](gifs/galleryGif.gif)
 
 ### 4. Contact Page
-Includes contact details, a map with the restaurant’s location, and a contact form.
+The contact page features the restaurant's contact details, social media links, a map showing the location, and a review panel displaying the restaurant’s rating (4.2/5 from 1,584 reviews). The review panel is clickable, allowing users to leave a review.
 ![Contact Page](gifs/contactGif.gif)
 
 ### 5. Language Switcher
