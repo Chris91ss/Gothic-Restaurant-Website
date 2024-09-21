@@ -33,6 +33,8 @@ The website emphasizes a dynamic and elegant design, with attention to details s
 │
 ├── /Menu images              # Contains images specific to the menu
 │
+├── /gifs                     # Contains GIFs used in the README file
+│
 ├── /css
 │   ├── style.css             # Main CSS file for general styling
 │   └── social.css            # CSS file for social media integration
@@ -43,6 +45,7 @@ The website emphasizes a dynamic and elegant design, with attention to details s
 ├── contact.html              # Contact page with restaurant details and Google Maps integration
 ├── LICENSE                   # License file (MIT)
 └── README.md                 # This README file
+
 ```
 
 ### Main CSS Features
